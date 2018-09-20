@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My second web page</title>
+		<meta name=’author’ content=’Charles Carter’ />
+		<meta name=’description’ content=’This is my first web page.’ />
+		<script>
+			<!-- no script yet -->
+		</script>
+		<style>
+			<!-- no style yet -->
+		</style>
+	</head>
+	<body>
+		<a id="top" />
+		<a href="#bottom">Go to bottom</a><br />
+		<h1>My Second Web Page</h1>
+		
+		<h2>Basic stuff</h2>
+		
+		<p>This is my first web page. <br />How do you like it?</p>
+		
+		<p>I had fun doing it. <br /> Let's do it again, it felt so good.</p> 
+		
+		<div>This is division one.</div>
+		
+		<h2>Forms</h2>
+		
+		<form action="get" method="" name="Clyde" style="background-color: #cccccc;">
+		
+		<br />
+		Hidden input: <input type="hidden" name="hidinput" value="the user cannot see this" />
+		<br />
+		Text input: <input type="text" name="textinput" />
+		
+		<br />
+		Password input: <input type="password" name="pwdinput" />
+		<br />
+		
+		Range input: <input type="range" name="my\_range" id="my_range" value="50"
+10 min="0" max="100" step="5" oninput="rangedisplay.value = my_range.value"> 
+<output id="rangedisplay"></output> <br />
+		<br />
+		
+		Color input: <input type="color" name="mycolor" />
+		<br />
+		File: <input type="file" />
+		<br />
+		Radio buttons:<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Male: <input type="radio" name="sex" value="male" /><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Female: <input type="radio" name="sex" value="female"  /><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other: <input type="radio" name="sex" value="other" checked="checked" />
+		<br />
+		Checkboxes:<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pepperoni: <input type="checkbox" name="pizza" value="pepperoni" /><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anchovi: <input type="checkbox" name="pizza" value="anchovi" /><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pineapple <input type="checkbox" name="pizza" value="pineapple" /><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mushrooms: <input type="checkbox" name="pizza" value="mushrooms" /><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Peppers: <input type="checkbox" name="pizza" value="peppers" /><br />
+		<br />Select car:<br />
+		<select name="car">
+			<option value="">Please select 1</option>
+			<option value="ford">Ford</option>
+			<option value="dodge">Dodge</option>
+			<option value="honda">Honda</option>
+			<option value="kia">Kia</option>
+			<option value="bmw">BMW</option>
+			<option value="fiat">Fiat</option>
+		</select>
+		<br />Select accessories:<br />
+		<select name="acc" multiple="multiple" size="3	"	>
+			<option value="">Please select several</option>
+			<option value="ac">Air Conditioner</option>
+			<option value="radio">Stereo Radio</option>
+			<option value="manual-trans">Manual Transmission</option>
+			<option value="leather">Leather Interior</option>
+			<option value="windows">Power Windows</option>
+			<option value="liners">Floor Windows</option>
+		</select>
+		<br />
+		Describe your car.<br />
+		<textarea rows="6" cols="60">Describe your dream car.
+		</textarea>
+		<br />
+		Pets:<br />
+		<input type="text" list="pets" name="pets" autocomplete="on">
+		<datalist id="pets">
+		  <option>Cat</option>
+		  <option>Dog</option>
+		  <option>Hamster</option>
+		  <option>Turtle</option>
+		</datalist>
+		<br />
+		<br />
+		<input type="button" value="Click me" 
+			onclick="window.alert('You clicked me --- it tickled!')" />
+		<br />
+		<br />
+		<br />
+		<input type="submit" name="mysubmit" value="Submit" />
+		<input type="reset" name="mysubmit" value="Reset" />
+		<br />
+		</form>
+		
+		
+		
+		<h2>Tables</h2>
+		
+		<table rules="all" style="border: 12px red;">
+			<tr>
+				<th>Paradigm</th>
+				<th>Language</th>
+				<th colspan="3">Description</th>
+			<tr>
+		<!--
+			<tr>
+				<th>Language</th>
+				<th>Creator</th>
+				<th>Year</th>
+				<th>Paradigm</th>
+			</tr>
+		-->
+			<tr>
+				<td rowspan="2">Procedural (Imeperative)</td>
+				<td>Fortran</td>
+				<td>John Backus</td>
+				<td>1953</td>
+				<td>Procedural</td>
+			</tr>
+			<tr>
+				<td>COBOL</td>
+				<td>Grace Hopper</td>
+				<td>1959</td>
+				<td>Procedural</td>
+			</tr>
+			<tr>
+				<td rowspan="2">Functional</td>
+				<td>Lisp</td>
+				<td>John McCarthy</td>
+				<td>1958</td>
+				<td>Functional</td>
+			</tr>
+			<tr>
+				<td>Haskell</td>
+				<td>Committee</td>
+				<td>1990</td>
+				<td>Functional</td>
+			</tr>
+			<tr>
+				<td rowspan="2">Object Oriented</td>
+				<td>Smalltalk</td>
+				<td>Allen Kay</td>
+				<td>1972</td>
+				<td>Object Oriented</td>
+			</tr>
+			<tr>
+				<td>C#</td>
+				<td>Anders Hejlsberg</td>
+				<td>1999</td>
+				<td>Object Oriented</td>
+			</tr>
+			<caption>Programming Languages</caption>
+		</table>
+		
+		
+		
+		<h2>Hyperlinks</h2>
+		<div>This is division two.</div>
+		<hr />
+			<a href="http://google.com" target="blank">This goes to Google</a><br />
+			<a href="http://harleydavidson.com" target="blank">This is going to Mexico</a><br />
+			<a href="http://youtube.com" target="blank">My favorite movies</a>
+		<hr />
+		<div>This is division three. 
+		
+			<span>This is span one.</span>
+			
+			<span>This is span two.</span>
+			
+			<span>This is span three</span>
+			
+		</div>
+		<a name="bottom" />
+		<a href="#top">Go to top</a>
+	</body>
+</html>
