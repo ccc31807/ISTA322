@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quantico Lab 01</title>
+		
+		<script language="JavaScript">
+			...
+		</script>
+		
+		<style type="text/css" rel="stylesheet">
+			...
+		</style>
+		
+		<meta title="author" content="Pat Miller" />
+		<meta title="date" content="February, 26, 2020" />
+		<meta title="exam" content="Passed CSSIP" />
+		
+		<link ... />
+	</head>
+	<body>
+		<a name="top" id="top" />
+		<h1>Quantico HTML Lab 1</h1>
+		<hr />
+		<h1>Contents</h1>
+			<a href="#header">Go to headers and paragraphs</a><br />
+			<a href="#list">Go to lists</a><br />
+			<a href="#table">Go to tables</a><br />
+			<a href="#form">Go to forms</a><br />
+			<a href="#generic">Go to generic elemets</a><br />
+			<a href="http://bbc.com" target="new">BBC</a><br />
+			<a href="http://cnn.com" target="new">CNN</a><br />
+			<a href="http://foxnews.com" target="new">Fox</a><br />
+			
+		
+		<hr />
+		
+		
+		
+		<a name="header" id="header" />
+		<h2>Headers and Paragraphs</h2>
+		
+		<h3>Paragraph Illustration</h3>
+		<p>This is a paragraph</p>
+		
+		<hr />
+		
+		<h3>Abraham Lincoln</h3>
+		<p>Four score 
+		
+		and seven <i>years</i> 
+		
+		
+		ago our forefathers brought forth on this <b>continent</b> a nation conceived in 
+		<b><i>liberty</i></b> 
+		and dedicated to the               propisition that all men are created            equal.</p>
+		
+		<a href="#top">Go To top</a>
+		<a name="list" id="list" />
+		<h2>Lists</h2>
+		
+		<h3>Ordered List</h3>
+		
+		<ol>
+			<li>Green</li>
+			<li>Eggs</li>
+			<li>and</li>
+			<li>Ham</li>
+		</ol>
+		
+		<h3>Unordered List</h3>
+		
+		<ul>
+			<li>The</li>
+			<li>Cat</li>
+			<li>in</li>
+			<li>The</li>
+			<li>Hat</li>
+		</ul>
+		
+		<h3>Dictionary List</h3>
+		
+		<dl>
+			<dt>M1 Garand</dt>
+			<dd>30 cal</dd>
+			<dt>M14</dt>
+			<dd>7.62 mm</dd>
+			<dt>M16</dt>
+			<dd>5.56</dd>
+			<dt>M1911</dt>
+			<dd>45 cal</dd>
+			<dt>M2</dt>
+			<dd>50 cal</dd>
+		</dl>
+		
+		<a href="#top">Go To top</a>
+		<a name="table" id="table" />
+		<h2>Tables</h2>
+		
+		<h3>Simple Table</h3>
+		
+		<table rules="all">
+			<tr>
+				<th>Breakfast</th>
+				<th>Lunch</th>
+				<th>Supper</th>
+			</tr>
+			<tr>
+				<td>coffee</td>
+				<td>fake chicken</td>
+				<td>chicken wings</td>
+				
+			</tr>
+			<tr>
+				<td>orange</td>
+				<td>tofu</td>
+				<td>celery</td>
+			</tr>
+			
+		</table>
+<br /><br /><hr /><br /><br />
+
+		<table rules = "all">
+		<caption>Music Database</caption>
+			<tr>
+				<th>Title</th>
+				<th>Artist</th>
+				<th>Album</th>
+				<th>Release Date</th>		
+			</tr>
+			<tr>
+				<th colspan="4">R &amp; B</th>
+			</tr>
+			<tr>
+				<td>Confession</td>
+				<td>Usher</td>
+				<td>Confessions</td>
+				<td>2004</td>
+			</tr>
+			<tr>
+				<td>Baby</td>
+				<td>Justin Beiber</td>
+				<td>My Environment</td>
+				<td>2009</td>
+			</tr>
+			<tr>
+				<td>Sweet Momma</td>
+				<td>Bob Marley</td>
+				<td>My Mommy</td>
+				<td>2020</td>
+			</tr>
+			<tr>
+				<th colspan="4">Country</th>
+			</tr>
+			<tr>
+				<td>Hound Dog</td>
+				<td>Elvis Pressley</td>
+				<td></td>
+				<td>1956</td>
+			</tr>
+			<tr>
+				<td>Speechless</td>
+				<td>Dan &amp; Shay</td>
+				<td></td>
+				<td>2018</td>
+			</tr>
+			<tr>
+				<td>It's 5:00 Somewhere</td>
+				<td>Allen Jackson</td>
+				<td></td>
+				<td>2004</td>
+			</tr>
+		</table>
+		
+		<h3>Color Table</h3>
+		<table rules='all'>
+			<tr>
+				<th>Genre</th><th>Artist</th>
+			</tr>
+			<tr>
+				<td rowspan=2 style='background-color: #551143; color: #ffffff;'>Classical</td><td>J. S. Bach</td>
+			</tr>
+			<tr>
+				<td>Tschkosvky</td>
+			</tr>
+			<tr>
+				<td rowspan=2 style='background-color: #000000; color: #aaffaa;'>Rock</td><td>Beatles</td>
+			</tr>
+			<tr>
+				<td>Taking Back Sunday</td>
+			</tr>
+			<tr>
+				<td rowspan=2  style='background-color: #9933cc;'>Country</td><td>Johnny Cash</td>
+			</tr>
+			<tr>
+			    <td>Flatt &amp; Scruggs</td>
+			</tr>
+		
+		</table>
+		
+		<a href="#top">Go To top</a>
+		<a name="form" id="form" />
+		<h2>Forms</h2>
+		
+		<form>
+					  <input type="hidden" name="secret" value="I'm Polish" />
+			Username: <input type="text" name="username" /><br />
+			Password: <input type="password" name="password" /><br />
+			Pick a number: <input type="range" value='50' min='0' max='100' step='5' name="myrange" id="myrange" oninput='rangedisplay.value = myrange.value' />
+			<output id='rangedisplay'></output> <br />
+			Pick a color: <input type="color" name="myhue" id="myhue" > <br />
+			<h3>My Pizza</h3>
+			<input type="checkbox" name="mypizza" value="pineapple" /> Pineapple
+			<input type="checkbox" name="mypizza" value="banannas" />Banana
+			<input type="checkbox" name="mypizza" value="onion" />
+			Onion
+			<input type="checkbox" name="mypizza" value="mushroom" />Magic Mushroom (careful, it will make you high)
+			<input type="checkbox" name="mypizza" value="anchovie" />
+			
+			<br /><br />
+			<input type="radio" name="sex" value="Male" checked="checked" /> Male
+			<input type="radio" name="sex" value="Female" /> Female
+			<input type="radio" name="sex" value="I don't know" /> Other
+			<br /><br />
+			
+			<select name="yourpizza" multiple="multiple">
+				<option value="bacon">Bacon</option>
+				<option value="Jalopena">Jalapenos</option>
+				<option value="BBQ chicken">BBQ Chicken</option>
+				<option value="extra cheese">Extra Cheese</option>
+				<option value="pepper">Green Pepper</option>
+				<option value="truffle">Black Truffles</option>
+
+			</select>
+			
+			<textarea rows="6" cols="40" name="comments" id="comments"
+			value="Enter comments"
+				onfocus="comments.value='';">Enter comments here</textarea>
+			
+			<br />
+			<hr />
+			Submit: <input type="submit" value="Submit"/><br />
+		
+		</form>
+		
+		<h1>Generic elements</h1>
+		<a name="generic" />
+		<div>First</div>
+		<div>Second</div>
+		<div>Third</div>
+		<div>It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat."</div>
+		
+		<span>Uno</span>
+		<span>Dos</span>
+		<span>Tres</span>
+		<span>Quattro</span>
+		
+	
+		
+	</body>
+</html>
