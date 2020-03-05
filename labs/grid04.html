@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Example 04</title>
+        <style>
+                div {
+                        border: 2px black solid;
+                        text-align: center;
+                        font-size: 24pt;
+                        padding: 12px;
+                }
+                #master {
+                        display: grid;
+                        grid-template-columns: 500px 500px 500px;
+                        grid-template-rows: 100px 500px 100px;
+                }
+                #div01 {
+                        background-color: #ffaaaa;
+                        grid-column-start: 1;
+                        grid-column-end: 4;
+                }
+                #div02 {
+                        background-color: #aaffaa;
+                }
+                #div03 {
+                        background-color: #aaaaff;
+                }
+                #div04 {
+                        background-color: #ffffaa;
+                }
+                #div05 {
+                        background-color: #ffaaff;
+                }
+                #div06 {
+                        background-color: #aaffff;
+                        grid-column-start: 1;
+                        grid-column-end: 4;
+                }
+        </style>
+    </head>
+    <body>
+        <h1>Grid Example 4</h1>
+        <div id="master">
+            <div id="div01"> 1 </div>
+            <div id="div02"> 2 </div>
+            <div id="div03"> 3 </div>
+            <div id="div04"> 4 </div>
+            <div id="div05"> 5 </div>
+            <div id="div06"> 6 </div>
+			<!--
+            <div id="div01"> 1 </div>
+            <div id="div02"> 2 </div>
+            <div id="div03"> 3 </div>
+            <div id="div04"> 4 </div>
+			-->
+        </div>
+    </body>
+</html>
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Example 06</title>
+        <style>
+                div {
+                        border: 2px black solid;
+                        text-align: center;
+                        font-size: 24pt;
+                }
+                #master {
+                        display: grid;
+                        grid-template-columns: 10% 45% 45%;
+                        grid-template-rows: 200px 100px 600px 100px;
+                }
+                #div01 {
+                        background-color: #ffaaaa;
+                        grid-column-start: 1;
+                        grid-column-end: 4;
+                        grid-row-start: 0;
+                        grid-row-start: 1;
+                }
+                #div02 {
+                        background-color: #aaffaa;
+                        grid-column-start: 1;
+                        grid-column-end: 4;
+                        grid-row-start: 1;
+                        grid-row-start: 2;
+                }
+                #div03 {
+                        background-color: #aaaaff;
+                        grid-column-start: 1;
+                        grid-column-end: 2;
+                        grid-row-start: 2;
+                        grid-row-start: 3;
+                }
+                #div04 {
+                        background-color: #ffffaa;
+                        grid-column-start: 2;
+                        grid-column-end: 3;
+                        grid-row-start: 2;
+                        grid-row-start: 3;
+                }
+                #div05 {
+                        background-color: #ffaaff;
+                        grid-column-start: 3;
+                        grid-column-end: 4;
+                        grid-row-start: 2;
+                        grid-row-start: 3;
+                }
+                #div06 {
+                        background-color: #aaffff;
+                        grid-column-start: 1;
+                        grid-column-end: 4;
+                        grid-row-start: 3;
+                        grid-row-start: 4;
+                }
+        </style>
+    </head>
+    <body>
+        <h1>Grid Example 6</h1>
+        <div id="master">
+            <div id="div01"> 1 Header</div>
+            <div id="div02"> 2 Top Menu</div>
+            <div id="div03"> 3 Side Bar</div>
+            <div id="div04"> 4 Content Pane</div>
+            <div id="div05"> 5 Content Pane</div>
+            <div id="div06"> 6 Bottom Menu</div>
+        </div>
+    </body>
+</html>
+
