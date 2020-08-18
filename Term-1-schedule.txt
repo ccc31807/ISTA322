@@ -1,0 +1,24 @@
+Schedule for remainder of Term 1
+M, Aug 17 - C# ch 13 (interfaces)
+T, Aug 18 - C# ch 14 (GC)
+W, Aug 19 - ASP.NET ch 3 (Party Invites)*
+Th, Aug 20 - ASP.NET ch 4 (CSS)
+F, Aug 21 - C# ch 15
+
+M, Aug 24 - C# ch 16
+T, Aug 25 - C# ch 17
+W, Aug 26 - ASP.NET ch 5
+Th, Aug 27 - ASP.NET ch 6
+F, Aug 28 - C# - ch 18
+==========================
+break from Saturday, Aug 29 to Tuesday September 8
+first class day of Term 2 is Wednesday, September 9
+==========================
+Homework, all ten chapters
+Labs, all ten chapters
+Quizzes, 2 quizzes, both C#, on Tuesday
+Programming Exercises, 4 (2 on C# and 2 on ASP.NET
+Project Steps 2
+=========================
+six chapters of C#, 13 through 18
+four chapters of ASP.NET, 3 through 6
