@@ -30,6 +30,17 @@ Now we are engaged in a great civil war, testing whether that nation, or any nat
 
 But, in a larger sense, we can not dedicate -- we can not consecrate -- we can not hallow -- this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us -- that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion -- that we here highly resolve that these dead shall not have died in vain -- that this nation, under God, shall have a new birth of freedom -- and that government of the people, by the people, for the people, shall not perish from the earth.</p>
 	  
+	  <h2>Generic Elements: &lt;div&gt;, &lt;span&gt;</h2>
+	  
+	  <div>This is a generic block element.</div>
+	  <div>This is a generic block element.</div>
+	  <div>This is a generic block element.</div>
+	  <div>
+	     <span style='font-variant: small-caps;'>This is a generic inline element.</span>
+		 <span style='background-color: #aaffaa;'>This is a generic inline element.</span>
+		 <span style='font-family: sans-serif;'>This is a generic inline element.</span>
+      </div>
+	  
 	  <h2>Hyper Refs</h2>
 	  
 	  <a href='http://github.com' target = 'new'>Go to Github</a><br />
@@ -65,6 +76,62 @@ But, in a larger sense, we can not dedicate -- we can not consecrate -- we can n
 	  </table>
 	  </center>
 
+      <h2>HTML Form</h2>
+	  
+	      <form method="GET" >
+		     <input type="hidden" name="carl" id="carl" value="42" />
+		     What is your name? <input type="text" name="adam" id="adam" /><br />
+			 What is your password? <input type="password" name="betty" id="betty" /><br />
+			 Color input: <input type="color" name="dave" id="dave" /> <br />
+			 Range input: <input type="range" name="earline" id="earline" value="550"
+                min="100" max="1000" step="10" onInput="frank.value = earline.value">
+            <output style="border: 1px red solid;" id="frank" name="frank" ></output><br />
+			 <h3>Pizza</h3>
+			 Pepperoni: <input type="checkbox" name="pizza" id="pizza" value="pepperoni" />
+			 Bell Pepper: <input type="checkbox" name="pizza" id="pizza" value="bellpepper" />
+			 Bacon: <input type="checkbox" name="pizza" id="pizza" value="bacon" />
+			 Magic Mushrooms: <input type="checkbox" name="pizza" id="pizza" value="magicmushrooms" />
+			 Pineapple: <input type="checkbox" name="pizza" id="pizza" value="pineapple" />
+			 Extra Cheese: <input type="checkbox" name="pizza" id="pizza" value="extracheese" />
+			 <hr />
+			 <select name="pizza2" id="pizza2" size=3 multiple="multiple">
+			    <option value="chicken">Chicken</option>
+							<option value="proc">Prosciutto</option>
+			 			    <option value="sausage">sausage</option>
+			 			    <option value="blackolives">Black Olives</option>
+							<option value="ham">Ham</option>
+			 			    <option value="mozarello">Mozorella</option>
+			 
+			 </select>
+			 
+			 
+			 <h3>Sex</h3>
+			 Male: <input type="radio" name="sex" id="sex" value="male" />
+			 Female: <input type="radio" name="sex" id="sex" value="female" />
+			 Don't Know: <input type="radio" name="sex" id="sex" value="dontknow" />
+			 <h3>State of Birth</h3>
+			 <select name="sob" id="sob">
+			    <option value="">Where were you born?</option>
+				<option value="co">Colorado</option>
+				<option value="sc">South Carolina</option>
+				<option value="pa">Pennsylvania</option>
+				<option value="or">Oregon</option>
+				<option value="il">Illinois</option>
+				<option value="ny">New York</option>
+				
+			 
+			 </select>
+			 <br />
+			 			 <textarea name="ta" id = "ta"	rows=5 cols=50>Type something here.
+			 </textarea>
+			 <hr />
+			 <input type="submit" name="submit" id="submit" value="Submit" />
+			 <input type="reset" value="Clear Form" />
+			 
+			 <br />
+
+			 
+		  </form>
 
 <hr />	  
 	  
