@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My first web page</title>
+		<meta name=’author’ content="Charles Carter" />
+		<meta name=’description’ content="This is my first web page." />
+		<script>
+			<!-- no script yet -->
+		</script>
+		<style>
+			<!-- no style yet -->
+		</style>
+	</head>
+	<body>
+		<a id='top' />
+		<a href='#bottom'>Go to bottom</a> | 
+		<a href='#table'>Go to tables</a> |
+		<a href='#lists'>Go to lists</a> |
+		<a href='#forms'>Go to forms</a>
+		<!-- this is a comment -->
+		<h1>Hello world</h1>
+			<p>Four score annd seven year ago our forefathers brought forth on this continent a new nation, conceived in liberty and dedicated to the proposition that all <i>people</i> are created equale.</p>
+			
+			<p>We hold these truths to be self evident, that all <i>people</i> are created <b>equal</b>, that all people are endowed with <b><i>certain inalienbble rights</i></b>, that people forom governments to sercure their rights, and when govvernment fails to do so , peop;le and the iright and duty to overthrow thatt governmentt and institute another one.</p>
+			<hr />
+		<h2>Two types of elements</h2>
+			<div>There two <span>types</span> of elements. 
+			Elements that have content have an opening tag and a closing. 
+			Empty elements do not have content. 
+			Empty elemenets have a closing tag but are ended by a closing bracket, 
+			     which consists of &lt;/tagname&gt;.</div>
+			<br />
+			<div>There two <span>types</span> of elements. These are <i><b>GENERIC</b></i> elements.
+			They are block level elements and inline elements.
+			Block level are stacked vertically.
+			Inline elements are &quot;stacked&quot; horizontally.
+			Examples will follow.</div>	
+<hr />			
+		<h2>Hyper links</h2>
+			<a href='https://www.reddit.com/r/OMSA/' target='new'>Reddit (OMSA)</a><br />
+			<a href='https://www.facebook.com/' target='blank'>Facebook</a><br />
+			<a target='blank' href='https://myspace.com/'>My Space</a><br />
+			<a target='new' href='http://symbolics.com/museum/'>Symbolics</a><br />
+		
+		
+		<h2>HTML Tables</h2>
+		<a id='table' /><a href='#top'>Go to top</a>
+		<br></br>
+		<a id='bottom' />
+		<a href='#top'>Go to top</a> | <a href='#table'>Go to tables</a>
+		<table rules='all' style='border: green double 16px; margin: 12px; padding: 12px;'>
+			<tr style='background-color: #beebee;'>
+				<th>Student</th>
+				<th>Pet</th>
+				<th>Species</th>
+				<th>Breed, Description</th>
+			</tr>
+			<tr>
+				<td>Rawlston</td>
+				<td>Izzy</td>
+				<td>Dog</td>
+				<td>short black fur, blind in one eye, Blue Heeler</td>				
+			</tr>
+			<tr>
+				<td>Patrick</td>
+				<td>Reginald</td>
+				<td>Snake</td>
+				<td>little black and white snake, always cranky</td>
+			</tr>
+			<tr>
+				<td>Steven</td>
+				<td>Chester</td>
+				<td>Dog</td>
+				<td>Sily terrier, Yorkie, old and likes to sleep</td>
+			</tr>
+		</table>
+		<h2>Lists</h2>
+		<a id='lists' />
+		<a href='#top'>Go to top</a>
+		
+		<!-- three kinds of lists, numbered, itemized, and dictionary -->
+		<h3>Numbered lists</h3>
+		<ol>
+			<li>Green</li>
+			<li>Eggs</li>
+			<li>and</li>
+			<li>Ham</li>
+		</ol>
+		
+		<h3>Itemized lists</h3>
+		<ul>
+			<li>The</li>
+			<li>Cat</li>
+			<li>in</li>
+			<li>the</li>
+			<li>Hat</li>
+		</ul>
+		
+		<h3>Dictionary lists</h3>
+		<dl>
+			
+			<dt>Yertle</dt><dd>a name of an individual</dd>
+			<dt>the</dt><dd>a singular definite article</dd>
+			<dt>Turtle</dt><dd>a reptile with a hard shell</dd>
+			<dt>Dr. Suess</dt><dd>a popular children's author, now deceased</dd>
+			
+		</dl>
+		<h2>HTML Forms</h2>
+		<a id='forms' />
+		<a href='#top'>Go to top</a>
+		
+		<form method='' action=''>
+			Please enter your name: <input id='name' name='name' type='text'/><br />
+			Please enter your password: <input id='password' name='password' type='password' /><br />
+			<hr />
+			<h3>What do you like on your pizza:</h3>
+			Pepperoni <input id='pizza' name='pizza' type='checkbox' value='pepperonni' /> |
+			Magic Mushrooms <input id='pizza' name='pizza' type='checkbox'  value='ushrooms' /> |
+			Black Olives <input id='pizza' name='pizza' type='checkbox'  value='olivs' /> |
+			Italian Sausage <input id='pizza' name='pizza' type='checkbox'  value='sausage' /> |
+			Anchovies <input id='pizza' name='pizza' type='checkbox' checked='checked'  value='little fish' />
+			<hr />
+			<h3>Sex</h3>
+			Male: <input id='sex' name='sex' type='radio' value='male'/> |
+			Female: <input id='sex' name='sex' type='radio' value='female'/> |
+			Undecided: <input id='sex' name='sex' type='radio' checked='checked' value='undecided'/>
+			<hr />
+			<h3>Your favorite caliber</h3>
+			<select id='caliber1' name='caliber'>
+				<option value='155mm'>155 mm</option>
+				<option value='5.56mm'>5.56 mm</option>
+				<option value='10mm'> 10 mm</option>
+				<option value='9mm'>9 mm</option>
+				<option value='40cal'>40 cal</doption>
+			</select>
+			
+			<hr />
+			<h3>Your favorite caliber</h3>
+			<select id='caliber2' name='caliber' size = '3'>
+				<option value='155mm'>155 mm</option>
+				<option value='5.56mm'>5.56 mm</option>
+				<option value='10mm'> 10 mm</option>
+				<option value='9mm'>9 mm</option>
+				<option value='40cal'>40 cal</doption>
+				<option value='7.62mm'>7.62 mm</option>
+			</select>
+			
+			
+			<hr />
+			<h3>Your favorite calibers, select more than one</h3>
+			<select id='caliber' name='caliber3' size = '3' multiple='mutiple'>
+				<option value='155mm'>155 mm</option>
+				<option value='5.56mm'>5.56 mm</option>
+				<option value='10mm'> 10 mm</option>
+				<option value='9mm'>9 mm</option>
+				<option value='40cal'>40 cal</doption>
+				<option value='7.62mm'>7.62 mm</option>
+			</select>
+			<hr />
+			Choose your favorite color: <input id='color' name='color' type='color' />
+			<hr />
+			<textarea rows='6' cols='60' id='free text' name='free text'fs></textarea>
+			<hr />
+			Submit: <input id='submit' name='submit' value='Submit Form' type='submit' />
+			Reset: <input id='reset' name='reset' value='Reset Form' type='reset' />
+			<button value='Generic Button' type='button'
+			onclick='alert("You clicked me");'>Please Don't click me!!</button>
+			
+			
+			
+			
+			
+		</form>
+		
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	</body>
+</html>
